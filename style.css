@@ -1,7 +1,79 @@
 body {
     font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
 }
 
 section {
+
+    margin-top: 100px;
+}
+
+.header-area {
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.header-left {
+    width: 50%;
+
+}
+
+h1.user-name span {
+    color: rgb(243, 54, 234);
+}
+
+.header-left img {
+    width: 70%
+}
+
+.btn-link {
+    background: rgb(216, 13, 182);
+    padding: 8px 15px;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.header-left h1 {
+    font-size: 40px;
+    font-weight: 600px;
+}
+
+.header-area h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.bigdream-area {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.Experiance-area {
+    display: flex;
+    justify-content: center;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.header-part h1 {
+    font-size: 20px;
+    font-weight: 200px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.half-part h1 {
+    font-size: 30px;
+    font-weight: 400px;
 }
