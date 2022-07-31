@@ -1,7 +1,11 @@
 body {
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Mulish', sans-serif;
+
     font-family: 'Ubuntu', sans-serif;
-    margin: 0px;
 }
+
 
 section {
 
@@ -9,14 +13,14 @@ section {
 }
 
 .header-area {
-    display: flex;
+
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    justify-content: center;
+
 }
 
 .header-left {
-    width: 50%;
+    width: 45%;
 
 }
 
@@ -40,40 +44,68 @@ h1.user-name span {
 
 .header-left h1 {
     font-size: 40px;
-    font-weight: 600px;
+    font-weight: 500px;
 }
 
 .header-area h1 {
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .bigdream-area {
-    display: flex;
-    justify-content: center;
+
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 
 }
 
-.Experiance-area {
+.flexible-container {
     display: flex;
     justify-content: center;
+}
+
+.Experiance-area {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+    background-position: left center;
 }
 
 .header-part h1 {
-    font-size: 20px;
     font-weight: 200px;
+    font-size: 30px;
+
 }
 
-.half-part h1 {
-    font-size: 30px;
-    font-weight: 400px;
+.Experiance-area .header-part {
+    box-shadow: 0px 2px 20px 10px #7d7373;
+    width: 38%;
+    margin: 41px;
+    padding: 10px 20px;
+
+}
+
+
+.Experiance-area .header-part h5 {
+    color: rgb(231, 102, 50)
+}
+
+.header-part.frist-site {
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(255, 145, 0), rgb(5, 184, 5));
+    border-image-slice: 1;
+
+}
+
+.header-part.second-site {
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(247, 14, 14), rgb(16, 13, 211));
+    border-image-slice: 1;
+
 }
 
 footer p {
     text-align: center;
+    padding: 50px;
+
 }
